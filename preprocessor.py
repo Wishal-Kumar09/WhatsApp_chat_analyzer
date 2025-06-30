@@ -1,5 +1,9 @@
 import re
 import pandas as pd
+import nltk
+nltk.download('vader_lexicon')  # <- Add this line right after importing nltk
+
+
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 
